@@ -1,0 +1,473 @@
+#navigation .container-fluid{
+  padding: 0;
+  color: white;
+  background-color: #1b1b2f
+
+}
+.navbar {
+  padding: 0 1%;
+}
+.navbar li{
+  padding-bottom: 0;
+}
+.navbar-brand {
+  font-size:2rem;
+  color: #fff;
+}
+ .nav-link{
+   color: #fff;
+   font-size: 1rem;
+   padding: 5px 20px 5px 20px !important;
+ }
+ .quote {
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%
+ }
+
+#homepage .container-fluid {
+  background-image: url("../img/homepage.jpg");
+  padding: 6%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ #homepage h1 {
+   padding-top: 10%;
+   font-family: "Open Sans";
+   font-weight: 500;
+   font-size: 3.5rem;
+   margin-top: 10%;
+
+ }
+ #homepage p{
+   font-size: 1.5rem;
+   font-weight: 400;
+
+ }
+
+ #services .container-fluid{
+   padding: 5%;
+   background-color: #191919;
+   color: white
+ }
+ .heading {
+   text-align: center;
+   font-family: "Open Sans";
+   font-weight: 600;
+   font-size: 2rem;
+   line-height: 1.2;
+   padding-bottom: 2%;
+   margin: auto;
+   width: 600px;
+
+ }
+.heading-description {
+   text-align: center;
+   width: 500px;
+   margin: auto;
+   font-family: "Open Sans";
+   font-size: 1.25rem;
+    padding-bottom: 2%;
+
+ }
+
+ .servicecard {
+
+   background-color: #252525;
+   text-align: center;
+   padding: 2%;
+   margin: 1%;
+ }
+
+ #testimonials{
+   text-align: center;
+   background-color: #191919;
+   color: #fff;
+   padding-top: 3%;
+   padding-bottom: 3%;
+ }
+ #testimonials h1{
+
+   padding-bottom: 3%;
+ }
+ #testimonials h2{
+   font-family: "Open-Sans";
+   font-size: 1.3rem;
+   line-height: 1.5;
+
+ }
+ .testimonial-image{
+   width: 3%;
+   border-radius: 100%;
+   margin: 20px;
+}
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(46, 132, 206, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
+
+
+#contactus {
+  background-color: #191919;
+
+  padding: 5%;
+}
+
+#contactus img {
+  width: 100%;
+  margin: auto;
+}
+
+#contactus h2{
+  color: #fff;
+  font-family: "Open Sans";
+  text-align: center;
+  padding-top: 4%;
+
+}
+#contactus label{
+  color: #fff;
+  padding-right: 2%;
+  margin-left: auto;
+  padding-top: 3%;
+  font-size: 1rem;
+
+}
+#contactus input {
+  display: block;
+  width: 100%;
+}
+#contactus textarea{
+  display: block;
+  width: 100%;
+  height: 30%;
+}
+#contactus .submit {
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 4%;
+}
+#footer{
+  /* background-color: #00263b; */
+  background-color: #1b1b2f;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 1rem;
+
+  padding-top: 1.5rem;
+  /* background-image: url("../img/deer.jpg"); */
+  background-image: url("../img/bluee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+#footer p{
+  margin-left: 3rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+  color: #f7f7f7;
+  margin-bottom: 1rem;
+}
+#footer ul{
+  margin-left: auto;
+}
+.pages{
+
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 2rem;
+  border-bottom: solid 1px #fff;
+  padding-top: 0
+
+}
+
+#section1{
+     border-right: 0.05rem solid #fff;
+
+}
+hr{
+  border-style:dotted none none;
+  border-color: #f7f7f7;
+  border-width: 5px;
+  width:20%;
+  margin-left: 7%;
+
+}
+
+li {
+  list-style: none;
+}
+.pages-parent a{
+  color: #f7f7f7;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+
+}
+.pages-parent a:hover{
+  color: #f7f7f7;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  cursor: auto;
+
+}
+
+.fa {
+  color: white !important;
+
+  padding: 5%;
+  border: 0.5px solid #fff;
+    border-radius: 100%;
+}
+.fa:hover{
+  background-color: black ;
+}
+.leftmost{
+  margin-left: 17%;
+
+}
+.likeus{
+
+
+    border-left : 0.05rem solid #fff;
+    padding-bottom: 6%;
+
+
+}
+.likeus h3{
+  margin-left: 3%;
+    color: white;
+    padding-bottom: 2%;
+    font-size: 1.5rem;
+    border-bottom: 0.5px solid #fff;
+
+
+}
+.likeus span{
+  color: #f7f7f7
+}
+
+.ignore{
+  color: white !important;
+  padding: none;
+  border:none;
+  border-radius: none;
+}
+.ignore:hover{
+  background-color: white;
+}
+.likebutton{
+
+  margin-left: 4%;
+
+
+}
+
+#servicepage .container-fluid{
+  background-image: url("../img/serve.jpg");
+  padding: 10%;
+}
+
+ #servicepage h1 {
+   color: white;
+   font-size: 3rem;
+   font-style: "Open Sans"
+
+ }
+ #weoffer .container-fluid{
+   background-color: #F4F4F4;
+   padding: 2% 12%;
+   padding-bottom: 5%;
+ }
+ #weoffer h3{
+   text-align: center;
+   padding: 4% 0;
+ }
+ #equipments .container-fluid{
+   background-image: url("../img/machine.jpg");
+   padding: 12%;
+ }
+
+ #equipments h1 {
+   color: white;
+   font-size: 3rem;
+   font-style: "Open Sans";
+
+
+ }
+ #equip-section .container-fluid {
+   padding: 2% 12%;
+
+ }
+ #equip-section .row{
+   padding-bottom: 10%;
+ }
+
+#equip-section img{
+  width: 100%;
+  margin-top: 10%;
+}
+
+#equip-section h3{
+  padding-top: 5%;
+  font-size: 2.5rem;
+  text-align: center;
+
+}
+.equipment-description{
+  width: 78%;
+  margin: auto;
+  padding-top: 15%;
+}
+.equipment-description h1{
+  font-size: 2rem;
+  font-style: "Open Sans";
+}
+.equipment-description p{
+  font-size: 1rem;
+  font-style: italic;
+
+}
+.files label{
+  margin-left: 35%;
+  font-size: 2rem;
+  padding: 5%;
+}
+
+.files input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 120px 0px 85px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+.files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+ }
+.files{ position:relative}
+.files:after {  pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.color input{ background-color:#f1f1f1;}
+.files:before {
+    position: absolute;
+    bottom: 0px;
+    left: 0;  pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 57px;
+    content: " or drag it here. Supported file types : CAD, PNG, IMG";
+    display: block;
+    margin: 0 auto;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#quote .container-fluid{
+  background-image: url("../img/quote.jpg");
+  background-size: cover;
+  padding: 0%;
+}
+#quote h1{
+  padding: 15%;
+  color: #fff;
+  font-size: 4rem;
+  font-family: "Open Sans"
+
+}
